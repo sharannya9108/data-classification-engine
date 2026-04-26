@@ -1,11 +1,7 @@
-import { AuthProvider } from "./context/AuthContext";
-import LoginPage from "./pages/LoginPage";
-import ListPage from "./pages/ListPage";
-import ProtectedRoute from "./components/ProtectedRoute";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
-return ( <AuthProvider> <ProtectedRoute> <ListPage /> </ProtectedRoute> </AuthProvider>
-);
+  return <Dashboard />;
 }
 
 export default App;
